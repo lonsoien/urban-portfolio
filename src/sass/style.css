@@ -10,6 +10,26 @@ body {
   flex-direction: column;
 }
 
+img {
+  height: 50%;
+  width: 50%;
+  margin: 20px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 200px;
+}
+
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
 }
@@ -19,15 +39,11 @@ h4 {
 }
 
 h1 {
-  font-size: 60px !important;
+  font-size: 80px !important;
   color: #6BB4BA;
   margin: 30px;
   margin-left: 70px;
   padding: 50px;
-}
-
-h3 {
-  margin-left: 100px;
 }
 
 .justify-content-end.nav {

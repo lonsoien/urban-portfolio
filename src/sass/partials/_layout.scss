@@ -10,6 +10,26 @@ body {
     flex-direction: column;
 }
 
+img {
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+}
+
 
 
 // To use incase later editing.
