@@ -1,10 +1,11 @@
 import Menu from './Menu';
 
-function Contact () {
+
+function Blog () {
     return (
         <>
         <Menu />
-        <h1 className='first-text'>CONTACT</h1>
+        <h1 className='first-text'>BLOG</h1>
         <footer>
             <h4>by Louise Bellingmo</h4>
         </footer>
@@ -12,4 +13,4 @@ function Contact () {
   );
 }
 
-export default Contact; 
+export default Blog; 
