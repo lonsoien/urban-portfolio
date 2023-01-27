@@ -23,8 +23,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
           </Routes>
           </Container>

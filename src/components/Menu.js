@@ -1,12 +1,13 @@
 import Nav from 'react-bootstrap/Nav';
 
 
+
 function Menu() {
   return (
     <>
-        <Nav className="justify-content-end" activeKey="/home">
+        <Nav className="justify-content-end" activeKey="#">
         <Nav.Item>
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="/work">Work</Nav.Link>
