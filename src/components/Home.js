@@ -4,8 +4,8 @@ function Home () {
     return (
         <>
         <Menu />
-        <h1>Webdesigner</h1>
-        <p>Lets create the future</p>
+        <h1 className='first-text'>WEBUTVIKLER</h1>
+        <h3>Lets create the future</h3>
     </>
   );
 }
