@@ -1,0 +1,19 @@
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-family: "La Belle Aurore", cursive;
+}
+
+.justify-content-end.nav {
+  background-color: black !important;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-link {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
