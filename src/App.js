@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-
+import Menu from './components/Menu';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work'; 
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Router>
-    <Home />
+    <Menu />
     <Container>
     <Routes>
           <Route path="/" exact element={<Home />} />

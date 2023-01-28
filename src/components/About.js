@@ -1,10 +1,8 @@
-import Menu from './Menu';
 import Designer from '../images/Designer.jpg'; 
 
 function About () {
     return (
         <>
-        <Menu />
         <h1 className='first-text'>ABOUT</h1>
         <div>
             <img alt='design' className='center' src={Designer}></img>
