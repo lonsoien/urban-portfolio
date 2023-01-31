@@ -7,6 +7,8 @@ function About () {
         <div>
             <img alt='design' className='center' src={Designer}></img>
         </div>
+        <br></br>
+        <p className="center">Content in prosess.. still a test site and test image</p>
         <footer>
             <h4>by Louise Bellingmo</h4>
         </footer>
