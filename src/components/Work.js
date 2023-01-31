@@ -1,6 +1,7 @@
 import Environment from '../images/evironmentbox2.png'; 
 import Kicks from '../images/kickscrew-mockup.png'; 
 import examplesite from '../images/sneakers-product.png'; 
+import houseofcode from '../images/houseofcode-mockup.png';
 
 function Work () {
     return (
@@ -9,6 +10,8 @@ function Work () {
         <div>
             <img alt='design' className='center' src={Environment}></img>
         </div>
+        <h2 className='center'>Environmentbox AS</h2>
+        <br></br>
         <div className='info-text'>
         <p>
             This is my Final Exam project at Noroff, where I chose to work for a real world client.
@@ -28,6 +31,8 @@ function Work () {
 
         <div>
             <img alt='design' className='center' src={Kicks}></img>
+            <h2 className='center'>Kicks Crew</h2>
+            <br></br>
         </div>
         <div className='info-text'>
         <p>
@@ -48,6 +53,27 @@ function Work () {
         <a href="none" target="blank"><button className="view">View Live</button></a>
         &nbsp;&nbsp;
         <a href="https://github.com/lonsoien/Semester2-project" target="blank"><button className="view">View Code</button></a>
+        <br></br>
+        </div>
+
+        <div>
+            <img alt='design' className='center' src={houseofcode}></img>
+        </div>
+        <h2 className='center'>House of Code</h2>
+            <br></br>
+        <div className='info-text'>
+        <p>
+         House of Code is a website created by 5 students included myself for a group project.
+         The goal was to create a Frontend Agency website to showcase us as developers and designers.
+         Here each group member had different roles and tasks to develop. I was the lead UI Designer 
+         for this project, and had the responsibility for content, logo, images and the visual aspects. 
+        </p>
+        </div>
+
+        <div className="center">
+        <a href="https://houseofcode.netlify.app/index.html" target="blank"><button className="view">View Live</button></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/HouseOf-Code/HouseOfCode" target="blank"><button className="view">View Code</button></a>
         <br></br>
         </div>
 
