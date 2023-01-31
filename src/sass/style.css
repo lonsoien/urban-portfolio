@@ -6,8 +6,6 @@ body {
 body {
   background-color: black;
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 img {
@@ -63,8 +61,8 @@ h1 {
 .info-text {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  height: 50%;
-  width: 50%;
+  height: 66%;
+  width: 65%;
   text-align: center;
   display: block;
   justify-content: center;
@@ -77,6 +75,11 @@ h1 {
     font-size: 40px !important;
     margin-left: 0px;
     padding: 5px;
+    height: 80%;
+    width: 80%;
+  }
+  .info-text {
+    font-size: 12px;
   }
 }
 .justify-content-end.nav {
