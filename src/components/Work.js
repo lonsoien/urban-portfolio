@@ -53,6 +53,7 @@ function Work () {
 
         <footer>
             <h4>by Louise Bellingmo</h4>
+            <br></br>
         </footer>
     </>
   );

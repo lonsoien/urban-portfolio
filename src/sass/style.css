@@ -72,6 +72,13 @@ h1 {
   margin: auto;
 }
 
+@media (min-width: 0px) and (max-width: 600px) {
+  h1 {
+    font-size: 40px !important;
+    margin-left: 0px;
+    padding: 5px;
+  }
+}
 .justify-content-end.nav {
   background-color: black !important;
 }
