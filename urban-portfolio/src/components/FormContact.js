@@ -23,7 +23,7 @@ function FormContact() {
 
 	return (
 		<form onSubmit={handleSubmit(onSubmit)}>
-			<h3 style={{textAlign: "left", marginTop: "20px"}}>Get in touch?</h3>
+			<h3>Get in touch?</h3>
 			<br></br>
 			<p>Name:</p>
 			<input {...register("name")} />
