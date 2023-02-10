@@ -6,7 +6,7 @@ function About () {
         <h1 className='first-text'>ABOUT</h1>
         <section className="profile">
         <div>
-            <img style={{borderRadius: "20%", width: "300px"}} alt='profile' src={Louise}></img>
+            <img style={{borderRadius: "20%", width: "290px"}} alt='profile' src={Louise}></img>
         </div>
         <br></br>
         <p className="item">
