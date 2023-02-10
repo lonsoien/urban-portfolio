@@ -6,11 +6,11 @@ function About () {
         <h1 className='first-text'>ABOUT</h1>
         <section className="profile">
         <div>
-            <img style={{borderRadius: "10%", width: "300px"}} alt='profile' src={Louise}></img>
+            <img style={{borderRadius: "20%", width: "300px"}} alt='profile' src={Louise}></img>
         </div>
         <br></br>
         <p className="item">
-            My name is Louise and im currently living in Oslo. 
+            My name is Louise and im a frontend developer. 
             <br></br>
             <br></br>
             I am a graduate from Noroff School of Technology and Digital Media. 
@@ -22,9 +22,21 @@ function About () {
             To create good UI and UX design is something I wish to envolve more in.
             <br></br> 
             I am skilled with the Adobe package like Adobe XD, and Photoshop. 
-        </p>
+            <br></br>
+            <br></br>
+            So who am I?
+            <br></br>
+            Im a bubbely person who loves to envolve and learn new things.
+             <br></br>
+             I am easy to get along with, love to work with other people and in teams, but 
+             also have the need to lock my self inside my own "bubble" to get into that creative mindset.
+             <br></br>
+             <br></br>
+             I work hard, are organized and like to have a detailed overview on my projects.
+            </p>
+
         <ul className="item2">
-            <p>My skills:</p>
+            <p>MY SKILLS:</p>
             <p>HTML, CSS, Javascript</p>
             <p>SASS, Bootstrap</p>
             <p>React, Next.js</p>
