@@ -25,15 +25,15 @@ function FormContact() {
 		<form onSubmit={handleSubmit(onSubmit)}>
 			<h3>Get in touch?</h3>
 			<br></br>
-			<p>Name:</p>
-			<input {...register("name")} />
+			<p className="note-text">Name:</p>
+			<input className="input" {...register("name")} />
 			{errors.firstname && <span>{errors.firstname.message}</span>}
-			<p>Email:</p>
+			<p className="note-text">Email:</p>
 			<input {...register("email")} />
 			{errors.email && <span>{errors.email.message}</span>}
 			<br></br>
 			{errors.subject && <span>{errors.subject.message}</span>}
-			<p>Message:</p>
+			<p className="note-text">Message:</p>
 			<textarea {...register("message")} />
 			{errors.message && <span>{errors.message.message}</span>}
 

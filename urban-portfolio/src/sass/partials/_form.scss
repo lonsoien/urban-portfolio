@@ -3,13 +3,23 @@ form {
 }
 
 textarea {
-    width: 350px;
+    width: 380px;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 input {
-    width: 350px;
-    padding: 5px;
+    width: 380px;
+    padding: 10px;
+    border-style: none;
+}
+
+.input {
+    border-radius: 10px 10px 0px 0px;
+}
+
+p.note-text {
+    margin: 10px;
 }
 
 button {
