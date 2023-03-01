@@ -4,6 +4,7 @@ background-color: black !important;
 
 .nav-item {
     padding: 20px;
+    font-size: 20px;
 }
 
 .nav-link {
@@ -13,4 +14,12 @@ background-color: black !important;
 
 .nav-link:hover {
     color: #6BB4BA;
+}
+
+@media (min-width: 0px) and (max-width: 653px) {
+    .nav-item {
+        padding: 0px;
+        font-size: 10px;
+    }
+
 }

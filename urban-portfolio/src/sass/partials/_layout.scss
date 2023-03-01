@@ -77,6 +77,12 @@ img.theimage {
 }
 }
 
+@media (min-width: 701px) and (max-width: 1180px) {
+    .profile {
+        display: table-row;
+    }
+}
+
 
 // To use incase later editing.
 // background-image: url("../../images/texture.png");

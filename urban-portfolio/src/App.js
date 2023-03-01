@@ -10,7 +10,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work'; 
 import Contact from './components/Contact'; 
-import Blog from './components/Blog'; 
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
           </Routes>
