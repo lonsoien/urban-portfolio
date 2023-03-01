@@ -40,3 +40,17 @@ button:hover {
     color: #6BB4BA;
     width: 230px;
 }
+
+@media (min-width: 0px) and (max-width: 700px) {
+    input {
+        width: 250px;
+    }
+    textarea {
+        width: 250px;
+    }
+    button:hover {
+        background-color: black;
+        color: #6BB4BA;
+        width: 160px;
+    }
+}
