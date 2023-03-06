@@ -1,45 +1,72 @@
-import * as yup from "yup";
-import { yupResolver } from "@hookform/resolvers/yup";
-import { useForm } from "react-hook-form";
+import React from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 
-const schema = yup.object().shape({
-	firstname: yup.string().required("Please enter your name").min(3, "enter valid firstname"),
-	email: yup.string().required("Please enter an email address").email("Please enter a valid email address"),
-	message: yup.string().required("Please enter your message").min(10, "The message must be at least 10 characters"),
-});
+const SERVICE_ID = "service_6hjyvnl";
+const TEMPLATE_ID = "template_94cui2a";
+const USER_ID = "5ASr5izXT5s4AnYyo";
 
-function FormContact() {
-	const { register, handleSubmit,
-		formState: { errors },
-	} = useForm({
-		resolver: yupResolver(schema),
-	});
+const FormContact = () => {
+        const handleOnSubmit = (e) => {
+          e.preventDefault();
+          emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+            .then((result) => {
+              console.log(result.text);
+              Swal.fire({
+                icon: 'success',
+                title: 'Message Sent Successfully'
+              })
+            }, (error) => {
+              console.log(error.text);
+              Swal.fire({
+                icon: 'error',
+                title: 'Ooops, something went wrong',
+                text: error.text,
+              })
+            });
+          e.target.reset()
+        };
 
-	function onSubmit(data) {
-		console.log(data);
-	}
-
-	console.log(errors);
-
-	return (
-		<form onSubmit={handleSubmit(onSubmit)}>
-			<h3>Get in touch?</h3>
-			<br></br>
-			<p className="note-text">Name:</p>
-			<input className="input" {...register("name")} />
-			{errors.firstname && <span>{errors.firstname.message}</span>}
-			<p className="note-text">Email:</p>
-			<input {...register("email")} />
-			{errors.email && <span>{errors.email.message}</span>}
-			<br></br>
-			{errors.subject && <span>{errors.subject.message}</span>}
-			<p className="note-text">Message:</p>
-			<textarea {...register("message")} />
-			{errors.message && <span>{errors.message.message}</span>}
-
-			<button>Send</button>
-		</form>
-	);
+  return (
+    <div className="App">
+      <Form onSubmit={handleOnSubmit}>
+        <Form.Field
+          id='form-input-control-email'
+          control={Input}
+          label='Email'
+          name='user_email'
+          placeholder='Email…'
+          required
+          icon='mail'
+          iconPosition='left'
+        />
+        <Form.Field
+          id='form-input-control-last-name'
+          control={Input}
+          label='Name'
+          name='user_name'
+          placeholder='Name…'
+          required
+          icon='user circle'
+          iconPosition='left'
+        />
+        <Form.Field
+          id='form-textarea-control-opinion'
+          control={TextArea}
+          label='Message'
+          name='user_message'
+          placeholder='Message…'
+          required
+        />
+        <Button type='submit'>Submit</Button>
+      </Form>
+    </div>
+  );
 }
 
 export default FormContact;
+
+/* template id : template_94cui2a */ 
+/** Servive id: service_6hjyvnl */
+/** user id: 5ASr5izXT5s4AnYyo  */

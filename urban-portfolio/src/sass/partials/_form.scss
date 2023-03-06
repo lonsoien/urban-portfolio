@@ -1,44 +1,30 @@
-form {
-    width: 250px;
-}
-
-textarea {
-    width: 380px;
-    padding: 10px;
-    border-radius: 0px 0px 10px 10px;
-}
-
-input {
-    width: 380px;
-    padding: 10px;
-    border-style: none;
-}
-
-.input {
-    border-radius: 10px 10px 0px 0px;
-}
-
-p.note-text {
-    margin: 10px;
-}
-
-button {
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 22px;
-    margin: 15px;
-    border-style: none;
-    background-color: black;
-    color: #6BB4BA;
+Form {
+    border: 1px solid lightgray;
     border-radius: 10px;
-    border: solid 3px #6BB4BA;
-    width: 100px;
-    transition: width 1s;
+    padding: 20px;
+  }
+
+.App {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+button.ui {
+    font-family: 'La Belle Aurore', 'cursive' !important;
+    font-size: 20px !important;
+    border-style: none;
+    background-color: black !important;
+    color: #6BB4BA !important;
+    border: solid 3px #6BB4BA !important;
+    width: 120px !important;
+    transition: width 1s !important;
 }
 
-button:hover {
-    background-color: black;
-    color: #6BB4BA;
-    width: 230px;
+button.ui:hover {
+    background-color: black !important;
+    color: #6BB4BA !important;
+    width: 230px !important;
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
