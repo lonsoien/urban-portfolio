@@ -66,7 +66,3 @@ const FormContact = () => {
 }
 
 export default FormContact;
-
-/* template id : template_94cui2a */ 
-/** Servive id: service_6hjyvnl */
-/** user id: 5ASr5izXT5s4AnYyo  */
