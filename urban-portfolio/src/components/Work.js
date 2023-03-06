@@ -77,6 +77,13 @@ function Work () {
         <br></br>
         </div>
 
+        <br></br>
+        <div className='info-text'>
+        <p>
+            More projects will be added soon from previous projects. Stay tuned! 
+        </p>
+        </div>
+
         <footer>
             <h4>by Louise Bellingmo</h4>
             <br></br>
