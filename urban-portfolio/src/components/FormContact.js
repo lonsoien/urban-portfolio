@@ -29,7 +29,7 @@ const FormContact = () => {
         };
 
   return (
-    <div className="App">
+    <div className="Email">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id='form-input-control-email'
