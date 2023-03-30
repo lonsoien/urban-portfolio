@@ -77,6 +77,24 @@ function Work () {
         <br></br>
         </div>
 
+        <div>
+            <img alt='design' className='center' src={houseofcode}></img>
+        </div>
+        <h2 className='center'>Scss Prototype</h2>
+            <br></br>
+        <div className='info-text'>
+        <p>
+         SCSS Bootstrap lesson project for understanding CSS frameworks. Main focus on styling with scss and bootstrap libary.
+        </p>
+        </div>
+
+        <div className="center">
+        <a href="https://scss-prototype.netlify.app" target="blank"><button className="view">View Live</button></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/lonsoien/scss-build-prototype" target="blank"><button className="view">View Code</button></a>
+        <br></br>
+        </div>
+
         <br></br>
         <div className='info-text'>
         <p>
