@@ -2,6 +2,7 @@ import Environment from '../images/evironmentbox2.png';
 import Kicks from '../images/kickscrew-mockup.png'; 
 import examplesite from '../images/sneakers-product.png'; 
 import houseofcode from '../images/houseofcode-mockup.png';
+import scss from '../images/scss-mockup2.png';
 
 function Work () {
     return (
@@ -78,7 +79,7 @@ function Work () {
         </div>
 
         <div>
-            <img alt='design' className='center' src={houseofcode}></img>
+            <img alt='design' className='center' src={scss}></img>
         </div>
         <h2 className='center'>Scss Prototype</h2>
             <br></br>
@@ -95,6 +96,8 @@ function Work () {
         <br></br>
         </div>
 
+        <br></br>
+        <br></br>
         <br></br>
         <div className='info-text'>
         <p>
