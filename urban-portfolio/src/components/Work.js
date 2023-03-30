@@ -85,7 +85,7 @@ function Work () {
             <br></br>
         <div className='info-text'>
         <p>
-         SCSS Bootstrap lesson project for understanding CSS frameworks. Main focus on styling with scss and bootstrap libary.
+         SCSS Bootstrap lesson project for understanding CSS frameworks. Main focus on styling with scss and bootstrap library.
         </p>
         </div>
 
