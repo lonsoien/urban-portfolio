@@ -54,6 +54,15 @@ button.view {
     border-radius: 450px 5px 450px 5px;
 }
 
+.me {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px 400px 5px 400px;
+}
+
 .profile {
     display: flex; 
     margin: 10px;
