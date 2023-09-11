@@ -1,4 +1,5 @@
 import Louise from '../images/louie-sort.jpg';
+import profile from '../images/louise_onsøien_bilde.jpg'
 
 function About () {
     return (
@@ -6,7 +7,7 @@ function About () {
         <h1 className='first-text'>ABOUT</h1>
         <section className="profile">
         <div className="selfie">
-            <img className="theimage" alt='profile' src={Louise}></img>
+            <img className="theimage" alt='profile' src={profile}></img>
         </div>
         <p className="item">
             My name is Louise and im a frontend developer. 
