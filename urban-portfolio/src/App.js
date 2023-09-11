@@ -9,7 +9,7 @@ import Menu from './components/Menu';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work'; 
-import Contact from './components/Contact'; 
+// import Contact from './components/Contact'; 
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
           </Routes>
           </Container>
