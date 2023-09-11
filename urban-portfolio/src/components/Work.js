@@ -17,7 +17,12 @@ function Work () {
         <br></br>
         <div className='info-text'>
         <p>
-            Bellingmo Webdesign is a webdesign freelance website.  
+            Bellingmo Webdesign is a webdesign freelance website. 
+            <br/> 
+            The business site is created and built with React and Framer motion. This project 
+            is a freelance project with a lot of focus on webdesign, effects and modern layout.
+            <br/>
+            The prototype was testet with a range of users before deployment to update the navigation and structure.
         </p>
         </div>
         <div className="center">
@@ -37,6 +42,8 @@ function Work () {
         <p>
             Huldrablog is a lifestyle & nature blog by Louise Bellingmo. 
             The project is made with React and headless CMS Sanity.ios. 
+            The goal was to create a simple easy blog layout with built in "post/edit/delete" function,
+            where the user have access to a Studio dashboard.
         </p>
         </div>
         <div className="center">
