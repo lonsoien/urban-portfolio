@@ -22,6 +22,8 @@ function About () {
             To create good UI and UX design is something I wish to envolve more in.
             <br></br> 
             I am skilled with the Adobe package like Adobe XD, and Photoshop. 
+            <br/>
+            Lately ive been working with my own projects and envolved in React and Sanity.ios. 
             <br></br>
             <br></br>
             So who am I?
@@ -30,9 +32,12 @@ function About () {
              <br></br>
              I am easy to get along with, love to work with other people and in teams, but 
              also have the need to lock my self inside my own "bubble" to get into that creative mindset.
-             <br></br>
-             <br></br>
              I work hard, are organized and like to have a detailed overview on my projects.
+             <br></br>
+             <br></br>
+             I currently started my freelance business Bellingmo Webdesign, please take a look. 
+             <br/>
+             <a href="https://bellingmowebdesign.com" target="blank" style={{color: "black"}}> Click Here.</a>
             </p>
 
         <ul className="item2">
@@ -41,6 +46,7 @@ function About () {
             <p>SASS, Bootstrap</p>
             <p>React, Next.js</p>
             <p>REST API</p>
+            <p>Sanity.ios</p>
             <p>CMS, Wordpress</p>
             <p>Adobe XD, Photoshop</p>
             <p>UI Design, UX Design</p>
@@ -49,6 +55,7 @@ function About () {
         <footer>
             <h4>by Louise Bellingmo</h4>
         </footer>
+        <br/>
     </>
   );
 }

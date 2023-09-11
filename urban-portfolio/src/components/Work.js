@@ -3,11 +3,30 @@ import Kicks from '../images/kickscrew-mockup.png';
 import examplesite from '../images/sneakers-product.png'; 
 import houseofcode from '../images/houseofcode-mockup.png';
 import scss from '../images/scss-mockup2.png';
+import huldra from '../images/prosjekthuldrablog_mockup.png';
 
 function Work () {
     return (
         <>
         <h1 className='first-text'>MY WORK</h1>
+        <div>
+            <img alt='design' className='center' src={huldra}></img>
+        </div>
+        <h2 className='center'>Huldrablog</h2>
+        <br></br>
+        <div className='info-text'>
+        <p>
+            Huldrablog is a lifestyle & nature blog by Louise Bellingmo. 
+            The project is made with React and headless CMS Sanity.ios. 
+        </p>
+        </div>
+        <div className="center">
+        <a href="https://huldrablog.netlify.app" target="blank"><button className="view">View Live</button></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/lonsoien/huldrablog" target="blank"><button className="view">View Code</button></a>
+        <br></br>
+        </div>
+
         <div>
             <img alt='design' className='center' src={Environment}></img>
         </div>
@@ -20,11 +39,11 @@ function Work () {
             solutions for communities and businesses. 
             The goal was to design, plan and create a new website for a client. 
             The client can log in to an admin page, and add their own posts for their oncoming projects 
-            and collabrations.
+            and collabrations. (This page has later been created with Wordpress.)
         </p>
         </div>
         <div className="center">
-        <a href="https://evironmentbox.netlify.app/" target="blank"><button className="view">View Live</button></a>
+        <a href="https://evironmentbox.no/" target="blank"><button className="view">View Live</button></a>
         &nbsp;&nbsp;
         <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-lonsoien" target="blank"><button className="view">View Code</button></a>
         <br></br>
@@ -109,6 +128,7 @@ function Work () {
             <h4>by Louise Bellingmo</h4>
             <br></br>
         </footer>
+        <br/>
     </>
   );
 }
