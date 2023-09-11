@@ -9,7 +9,7 @@ import Menu from './components/Menu';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work'; 
-// import Contact from './components/Contact'; 
+
 import { Container } from 'react-bootstrap';
 
 function App() {

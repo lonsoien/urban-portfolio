@@ -4,7 +4,6 @@ body {
 }
 
 body {
-    background-color: black;
     color: white;
 }
 
@@ -31,10 +30,10 @@ button.view {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     margin: 10px;
-    color: #6BB4BA;
+    color: black;
     border: solid 3px #6BB4BA;
     border-radius: 10px 10px 10px 10px;
-    background-color: black;
+    background-color: #6BB4BA;
     width: 120px;
     transition: width 1s;
 }
