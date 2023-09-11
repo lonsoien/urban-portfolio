@@ -15,18 +15,32 @@ img {
   text-align: center;
 }
 
-.view {
+div.selfie {
+  height: 60%;
+  width: 60%;
+  text-align: center;
+}
+
+img.theimage {
+  border-radius: 20%;
+}
+
+button.view {
   font-family: "Montserrat", sans-serif;
   padding: 10px;
   margin: 10px;
   color: #6BB4BA;
+  border: solid 3px #6BB4BA;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: black;
+  width: 120px;
+  transition: width 1s;
 }
 
 .view:hover {
   background-color: #6BB4BA;
   color: white;
+  width: 230px;
 }
 
 .center {
@@ -37,17 +51,45 @@ img {
   margin: auto;
 }
 
+.profile {
+  display: flex;
+  margin: 10px;
+}
+
+.item {
+  padding: 15px;
+  flex: -1;
+}
+
+.item2 {
+  padding: 15px;
+}
+
 footer {
   text-align: center;
   margin-top: 100px;
 }
 
-h1, h2, h3 {
+@media (min-width: 0px) and (max-width: 700px) {
+  section.profile {
+    display: table-row;
+  }
+  img.theimage {
+    text-align: center;
+  }
+}
+@media (min-width: 701px) and (max-width: 1180px) {
+  .profile {
+    display: table-row;
+  }
+}
+h1, h2, h3, p {
   font-family: "Montserrat", sans-serif;
 }
 
 h4 {
-  font-family: "La Belle Aurore", cursive;
+  font-family: "La Belle Aurore";
+  font-size: 20px;
 }
 
 h1 {
@@ -88,6 +130,7 @@ h1 {
 
 .nav-item {
   padding: 20px;
+  font-size: 18px;
 }
 
 .nav-link {
@@ -97,4 +140,11 @@ h1 {
 
 .nav-link:hover {
   color: #6BB4BA;
+}
+
+@media (min-width: 0px) and (max-width: 653px) {
+  .nav-item {
+    padding: 0px;
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

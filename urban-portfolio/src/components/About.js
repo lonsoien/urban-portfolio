@@ -1,4 +1,4 @@
-import Louise from '../images/louie-sort.jpg';
+
 import profile from '../images/louise_onsøien_bilde.jpg'
 
 function About () {
