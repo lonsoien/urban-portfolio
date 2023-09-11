@@ -4,11 +4,30 @@ import examplesite from '../images/sneakers-product.png';
 import houseofcode from '../images/houseofcode-mockup.png';
 import scss from '../images/scss-mockup2.png';
 import huldra from '../images/prosjekthuldrablog_mockup.png';
+import bellingmo from "../images/bellingmoweb-mockup.png";
 
 function Work () {
     return (
         <>
         <h1 className='first-text'>MY WORK</h1>
+        <div>
+            <img alt='design' className='center' src={bellingmo}></img>
+        </div>
+        <h2 className='center'>Bellingmo Webdesign</h2>
+        <br></br>
+        <div className='info-text'>
+        <p>
+            Bellingmo Webdesign is a webdesign freelance website.  
+        </p>
+        </div>
+        <div className="center">
+        <a href="https://bellingmowebdesign.com/home" target="blank"><button className="view">View Live</button></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/lonsoien/postbellingmowebdesign" target="blank"><button className="view">View Code</button></a>
+        <br></br>
+        </div>
+
+
         <div>
             <img alt='design' className='center' src={huldra}></img>
         </div>
@@ -26,7 +45,6 @@ function Work () {
         <a href="https://github.com/lonsoien/huldrablog" target="blank"><button className="view">View Code</button></a>
         <br></br>
         </div>
-
         <div>
             <img alt='design' className='center' src={Environment}></img>
         </div>
