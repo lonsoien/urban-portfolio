@@ -68,7 +68,7 @@ function Work () {
         </p>
         </div>
         <div className="center">
-        <a href="https://evironmentbox.no/" target="blank"><button className="view">View Live</button></a>
+        <a href="https://www.environmentbox.no" target="blank"><button className="view">View Live</button></a>
         &nbsp;&nbsp;
         <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-lonsoien" target="blank"><button className="view">View Code</button></a>
         <br></br>
